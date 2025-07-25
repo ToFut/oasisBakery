@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Clock, Package, Truck, ClipboardList, Bell, BarChart3, ShoppingCart, QrCode, CheckCircle, AlertTriangle, MapPin, DollarSign, Users, TrendingUp, Search, Filter, Plus, Minus, Camera, MessageCircle, Settings, ChevronDown, Building, User, LogOut, Menu, X, Eye, Calendar, FileText, Zap, Route, Scan } from 'lucide-react';
+import { Clock, Package, Truck, ClipboardList, Bell, BarChart3, ShoppingCart, QrCode, CheckCircle, AlertTriangle, MapPin, DollarSign, Users, TrendingUp, Search, Filter, Plus, Minus, Camera, MessageCircle, Settings, ChevronDown, Building, User, LogOut, Menu, X, Eye, Calendar, FileText, Zap, Map, Scan } from 'lucide-react';
 
 const BakeryOSApp = () => {
   const [activeTab, setActiveTab] = useState('dashboard');
@@ -1043,7 +1043,7 @@ const BakeryOSApp = () => {
         { id: 'alerts', icon: Bell, label: 'Alerts', count: alerts.filter(a => !a.resolved).length }
       ],
       driver: [
-        { id: 'routes', icon: Route, label: 'Routes' },
+        { id: 'routes', icon: Map, label: 'Routes' },
         { id: 'deliveries', icon: Truck, label: 'Deliveries' },
         { id: 'scanner', icon: Scan, label: 'Scanner' },
         { id: 'clock', icon: Clock, label: 'Clock' }
