@@ -1,5 +1,5 @@
 import React from 'react';
-import BakeryOSApp from './components/BakeryOSApp';
+import BakeryOSApp from './components/BakeryOSApp.jsx';
 import './App.css';
 
 function App() {
